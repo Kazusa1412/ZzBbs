@@ -1,0 +1,31 @@
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:key="catetest"
+        app:title="通知">
+
+        <SwitchPreferenceCompat
+            app:key="switchtest"
+            app:title="测试"/>
+
+        <Preference
+            app:key="pretest"
+            app:icon="@drawable/ye"
+            app:title="测试"
+            app:summary="易老师最 ** "/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="help_category"
+        app:title="帮助">
+
+        <Preference
+            app:key="feedback"
+            app:title="send feedback"
+            app:summary="Report technical issues or suggest new features"/>
+    </PreferenceCategory>
+</PreferenceScreen>
+
+
